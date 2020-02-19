@@ -11,7 +11,8 @@ public class LaunchApplication {
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://jqueryui.com/selectable/");
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        //changed implicitly wait to 30 secs
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 	}
 
