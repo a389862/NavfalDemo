@@ -12,8 +12,8 @@ public class LaunchApplication {
         //URL Changed
         driver.get("http://leaftaps.com/opentaps/control/main");
         driver.manage().window().maximize();
-        //changed implicitly wait to 30 secs
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        //changed implicitly wait to 45 secs
+        driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
 
 	}
 
